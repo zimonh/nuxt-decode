@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-decode",
+  "version": "1.0.0",
+  "description": "nuxt string to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "nuxt",
+    "decode"
+  ],
+  "author": "ZIMONH",
+  "license": "ISC",
+  "dependencies": {
+    "vm2": "^3.9.9"
+  }
+}
