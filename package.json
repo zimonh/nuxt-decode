@@ -13,6 +13,7 @@
   "author": "ZIMONH",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "vm2": "^3.9.9"
   }
 }
