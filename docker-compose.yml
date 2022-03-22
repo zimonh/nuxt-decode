@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  nuxt-decode:
+    build: .
+    restart: always
+    ports:
+      - "42069:42069"

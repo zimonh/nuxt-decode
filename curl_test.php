@@ -1,16 +1,5 @@
-# nuxt-decode
+<?php
 
-Input nuxt javascript: `(function(a,b,c,d){return ......))`
-
-Output Json string: `{data:"..."}`
-
-## Docker
-Docker image and compose YAML are included. Just start container with `docker-compose up -d`. Should you want to stop it use `docker-compose down`
-
-## Test with PHP
-
-An example using PHP and CURL connecting to the node API:
-```
 $example = file_get_contents('example.txt');
 
 $ch = curl_init();
@@ -24,6 +13,3 @@ $output = curl_exec($ch);
 curl_close($ch);
 
 var_dump($output);
-```
-
-You can just try it out with `php curl_test.php`
