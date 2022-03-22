@@ -1,6 +1,6 @@
 require('dotenv').config();
 const http = require('http');
-const hostname = process.env.HOSTNAME;
+const hostname = process.env.HOST;
 const port = process.env.PORT;
 const { VM } = require('vm2');
 const vm = new VM();

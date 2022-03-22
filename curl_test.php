@@ -1,11 +1,5 @@
-# nuxt-decode
+<?php
 
-Input nuxt javascript: `(function(a,b,c,d){return ......))`
-
-Output Json string: `{data:"..."}`
-
-An example using PHP and CURL connecting to the node API:
-```
 $example = file_get_contents('example.txt');
 
 $ch = curl_init();
@@ -19,4 +13,3 @@ $output = curl_exec($ch);
 curl_close($ch);
 
 var_dump($output);
-```
