@@ -5,3 +5,6 @@ services:
     restart: always
     ports:
       - "42069:42069"
+    environment:
+      - HOST=$HOST
+      - PORT=$PORT
